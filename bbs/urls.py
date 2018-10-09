@@ -23,7 +23,8 @@ urlpatterns = [
     url(r"post/edit/",post_views.edit_post),
     url(r"post/read/",post_views.read_post),
     url(r"post/delete/",post_views.read_post),
-    url(r"post/search",post_views.search),
+    url(r"post/search/",post_views.search),
+
 
 ]
 
